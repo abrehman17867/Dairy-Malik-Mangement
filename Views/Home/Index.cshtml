@@ -1,0 +1,120 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to Dairy Milk Management</h1>
+    <p>Manage your dairy products efficiently and effectively.</p>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://img.freepik.com/premium-photo/fresh-milk-glass-dark-wooden-table-blurred-landscape-with-cow-meadow_742418-18451.jpg?w=826" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://img.freepik.com/premium-photo/milk-cottage-table-cows-farm-field-blur-background-copy-space-text_742418-47736.jpg?uid=R141677362&ga=GA1.1.231738376.1719126644&semt=ais_user-customized" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://img.freepik.com/premium-photo/fresh-milk-glass-dark-wooden-table-blurred-landscape-with-cow-meadow_742418-18453.jpg?w=826" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </a>
+    </div>
+</div>
+
+<div class="hero-section text-center mt-5">
+    <h2 class="display-5">Efficient Dairy Management</h2>
+    <p class="lead">Streamline your dairy operations with our state-of-the-art management system. Track milk production, manage orders, and ensure quality control with ease.</p>
+    <a href="#" class="btn btn-primary btn-lg">Get Started</a>
+</div>
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-4 text-center">
+            <img src="https://img.icons8.com/ios/100/000000/milk-bottle.png" alt="Milk Production">
+            <h3>Track Milk Production</h3>
+            <p>Monitor and record milk production data accurately to enhance productivity and quality.</p>
+        </div>
+        <div class="col-md-4 text-center">
+            <img src="https://img.icons8.com/ios/100/000000/purchase-order.png" alt="Manage Orders">
+            <h3>Manage Orders</h3>
+            <p>Efficiently handle customer orders and ensure timely delivery of dairy products.</p>
+        </div>
+        <div class="col-md-4 text-center">
+            <img src="https://img.icons8.com/ios/100/000000/checked.png" alt="Quality Control">
+            <h3>Ensure Quality Control</h3>
+            <p>Implement rigorous quality control measures to maintain high standards of dairy products.</p>
+        </div>
+    </div>
+</div>
+
+<div class="services-section bg-light mt-5 py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Our Services</h2>
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <i class="fas fa-cog fa-4x mb-3"></i>
+                <h3>Customizable Solutions</h3>
+                <p>Tailor our dairy management system to fit your specific needs and workflows.</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <i class="fas fa-chart-line fa-4x mb-3"></i>
+                <h3>Analytics and Reporting</h3>
+                <p>Gain insights into your dairy operations with advanced analytics and reporting features.</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <i class="fas fa-users fa-4x mb-3"></i>
+                <h3>Customer Support</h3>
+                <p>24/7 customer support to assist you in optimizing your dairy management processes.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="contact-section mt-5 py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Contact Us</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <p class="lead">Have questions or need assistance? Contact our team for support.</p>
+                <ul class="list-unstyled">
+                    <li><i class="fas fa-envelope"></i> Email: info@dairymilkmanagement.com</li>
+                    <li><i class="fas fa-phone"></i> Phone: +92 (332866199)</li>
+                    <li><i class="fas fa-map-marker-alt"></i> Address: 123 Dairy Farm Rd, Dairyville, Pakistan</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <p class="lead">You can also reach out to us using the form below:</p>
+                <form>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" placeholder="Your Name">
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control" placeholder="Your Email">
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="form-control" rows="5" placeholder="Your Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="border-top footer text-muted">
+    <div class="container">
+        &copy; 2024 - Dairy Milk Management - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+    </div>
+</footer>
